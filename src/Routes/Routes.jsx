@@ -5,6 +5,7 @@ import Installation from "../Pages/Installation/Installation";
 import MainLayout from "../Layouts/MainLayout";
 import PageNotFound from "../Pages/Not Found/PageNotFound";
 import ErrorPage from "../Pages/Not Found/ErrorPage";
+import Loading from "../Pages/Not Found/Loading";
 
 const router = createBrowserRouter([
     {
@@ -14,11 +15,13 @@ const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <Home />
+                element: <Home />,
+                hydrateFallbackElement: <Loading></Loading>
             },
             {
                 path: "/Apps",
-                element: <Apps />
+                element: <Apps />,
+                hydrateFallbackElement: <Loading></Loading>
             },
             {
                 path: "/Installation",
