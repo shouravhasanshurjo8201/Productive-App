@@ -14,12 +14,12 @@ const Navbar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><Link to="/">Home</Link></li>
+                            <li className="btn"><Link to="/">Home</Link></li>
                             <li><Link to="/Apps">Apps</Link></li>
                             <li><Link to="/Installation">Installation</Link></li>
                         </ul>
                     </div>
-                    <Link to="/" className=" flex justify-around items-center gap-2 text-xl font-bold cursor-pointer"><img src={imgLogo} alt="Logo-img" className="h-8 w-8" /> HERO.IO</Link>
+                    <Link to="/" className=" flex justify-around items-center gap-2 text-xl font-bold cursor-pointer"><img src={imgLogo} alt="Logo-img" className="h-8 w-8" /> <span className="bg-gradient-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text hover:text-transparent">HERO.IO</span></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 font-bold">
