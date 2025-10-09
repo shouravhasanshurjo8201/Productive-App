@@ -6,16 +6,18 @@ import LoadingPage from "../Not Found/LoadingPage";
 
 const Installation = () => {
   const { Loading } = useAppsData()
+  const [apps, setApps] = useState(() => {
+    return JSON.parse(localStorage.getItem('Instal')) || [];
+  });
 
-  const existingData = JSON.parse(localStorage.getItem('Instal')) || [];
-  const [sortOrder, setSortOrder] = useState();
+  const [sortOrder, setSortOrder] = useState('');
   const sortedItem = () => {
     if (sortOrder === 'price-asc') {
-      return [...existingData].sort((a, b) => a.downloads - b.downloads)
+      return [...apps].sort((a, b) => a.downloads - b.downloads)
     } else if (sortOrder === 'price-desc') {
-      return [...existingData].sort((a, b) => b.downloads - a.downloads)
+      return [...apps].sort((a, b) => b.downloads - a.downloads)
     } else {
-      return existingData;
+      return apps;
     }
   }
   const InstalData = sortedItem();
@@ -30,7 +32,7 @@ const Installation = () => {
         {Loading ? <LoadingPage></LoadingPage> :
           <div>
             <div className="flex justify-between items-center p-2">
-              <div className="text-xl font-bold"><h1> Apps Found <span>({existingData.length})</span> </h1></div>
+              <div className="text-xl font-bold"><h1> Apps Found <span>({InstalData.length})</span> </h1></div>
               <div className="form-control">
                 <select className="select select-bordered" value={sortOrder} onChange={e => setSortOrder(e.target.value)}>
                   <option value='none'>Sort By Size</option>
@@ -40,8 +42,8 @@ const Installation = () => {
               </div>
             </div>
             <div className=' my-5'>
-              {existingData && existingData.length > 0
-                ? InstalData.map(app => <InstalledApps app={app} key={app.id}></InstalledApps>) : <NotFound></NotFound>}
+              {InstalData && InstalData.length > 0
+                ? InstalData.map(app => <InstalledApps app={app} key={app.id} setApps={setApps}  ></InstalledApps>) : <NotFound></NotFound>}
             </div>
           </div>}
       </div>

@@ -7,6 +7,7 @@ import useAppsData from "../../Hooks/useAppsData";
 import { useEffect, useState } from "react";
 import LoadingPage from "../Not Found/LoadingPage";
 import InvalidID from "../Not Found/InvalidID";
+import Recharts from "../../Components/Recharts/Recharts";
 
 const DetailPage = () => {
     const { id } = useParams();
@@ -71,8 +72,9 @@ const DetailPage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="text-center font-bold text-4xl">
-                        <h1>200</h1>
+                    <div className="p-4">
+                        <h1 className="text-2xl font-bold my-5">Ratings</h1>
+                        <Recharts ratings={AppsData?.ratings}></Recharts>
                     </div>
                     <div className="mb-5 p-4">
                         <h1 className="font-bold py-4 text-xl">Description</h1>

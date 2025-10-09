@@ -3,13 +3,13 @@ import downloads from "../../assets/icon-downloads.png";
 import ratings from "../../assets/icon-ratings.png";
 import review from "../../assets/icon-review.png";
 
-const InstalledApps = ({ app }) => { 
+const InstalledApps = ({ app, setApps }) => {
     const handleUninstallButton = () => {
-        const existingList = JSON.parse(localStorage.getItem("Instal"))
+        const existingList = JSON.parse(localStorage.getItem("Instal")) || [];
         const updatedList = existingList.filter(p => p.id !== app.id);
         localStorage.setItem("Instal", JSON.stringify(updatedList));
+        setApps(updatedList);
         toast.success(`${app?.title} ► Uninstall Successful`);
-        window.location.reload();
     };
 
     return (
@@ -47,4 +47,4 @@ const InstalledApps = ({ app }) => {
     )
 }
 
-export default InstalledApps;
+export default InstalledApps ;
