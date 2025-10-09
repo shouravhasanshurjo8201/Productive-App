@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import appStore from "../../assets/demo-app (5).webp";
 import downloads from "../../assets/icon-downloads.png";
 import ratings from "../../assets/icon-ratings.png";
@@ -5,7 +6,7 @@ import ratings from "../../assets/icon-ratings.png";
 const AppsCard = ({app}) => {
 
   return (
-    <div id={app.id} className="bg-white p-5 rounded shadow hover:scale-105 transition ease-in-out">
+    <Link to={`/Apps/${app.id}`} id={app.id}  className="bg-white p-5 rounded shadow hover:scale-105 transition ease-in-out">
         <div className="flex justify-center items-center">
             <img src={appStore} alt="" className="h-50 w-full rounded" />
         </div>
@@ -22,7 +23,7 @@ const AppsCard = ({app}) => {
                 <span>{app.ratingAvg}</span>
             </div>
         </div>
-    </div>
+    </Link>
   )
 }
 

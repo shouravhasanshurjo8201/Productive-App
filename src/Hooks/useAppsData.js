@@ -8,7 +8,7 @@ const useAppsData = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/Data/AppsData.json');
+                const response = await fetch('../Data/AppsData.json');
                 const data = await response.json();
                 setJsonData(data);
             } catch (err) {

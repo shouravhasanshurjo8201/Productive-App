@@ -3,8 +3,10 @@ import React from 'react'
 const Installation = () => {
   
   return (
-    <div>Installation</div>
+    <div className='flex-1'>
+      <h1>Installation</h1> 
+    </div>
   )
 }
 
-export default Installation
+export default Installation ;

@@ -6,6 +6,7 @@ import MainLayout from "../Layouts/MainLayout";
 import PageNotFound from "../Pages/Not Found/PageNotFound";
 import ErrorPage from "../Pages/Not Found/ErrorPage";
 import Loading from "../Pages/Not Found/Loading";
+import DetailPage from "../Pages/Detail Page/DetailPage";
 
 const router = createBrowserRouter([
     {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
             {
                 path: "/Installation",
                 element: <Installation />
+            },
+            {
+                path: "/Apps/:id",
+                element: <DetailPage />
             },
             {
                 path: "*",
