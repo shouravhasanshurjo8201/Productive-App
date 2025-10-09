@@ -5,8 +5,8 @@ import Installation from "../Pages/Installation/Installation";
 import MainLayout from "../Layouts/MainLayout";
 import PageNotFound from "../Pages/Not Found/PageNotFound";
 import ErrorPage from "../Pages/Not Found/ErrorPage";
-import Loading from "../Pages/Not Found/Loading";
 import DetailPage from "../Pages/Detail Page/DetailPage";
+import LoadingPage from "../Pages/Not Found/LoadingPage";
 
 const router = createBrowserRouter([
     {
@@ -17,12 +17,12 @@ const router = createBrowserRouter([
             {
                 index: true,
                 element: <Home />,
-                hydrateFallbackElement: <Loading></Loading>
+                hydrateFallbackElement: <LoadingPage></LoadingPage>
             },
             {
                 path: "/Apps",
                 element: <Apps />,
-                hydrateFallbackElement: <Loading></Loading>
+                hydrateFallbackElement: <LoadingPage></LoadingPage>
             },
             {
                 path: "/Installation",

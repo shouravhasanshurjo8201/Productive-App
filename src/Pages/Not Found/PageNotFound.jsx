@@ -7,7 +7,7 @@ const PageNotFound = () => {
         navigate(-1);
     };
     return (
-        <div className="h-screen flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center my-5">
             <img src={imgLogo} alt="Logo-img" className="h-52 w-52" />
             <p className="text-xl mt-4 font-bold">Oops, page not found!</p>
             <p className="text-sm m-4">The page you are looking for is not available.</p>

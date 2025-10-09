@@ -6,7 +6,6 @@ import fLogo from "../../assets/fbl.png";
 
 const Footer = () => {
     return (
-
         <footer className="bg-[#001931] text-white p-10">
             <div className="container mx-auto ">
                 <div className="md:flex md:justify-between md:items-center border-b border-gray-400">
@@ -29,8 +28,7 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
-
     )
 }
 
-export default Footer;
+export default Footer ;

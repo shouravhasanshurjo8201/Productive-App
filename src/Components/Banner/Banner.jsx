@@ -4,7 +4,6 @@ import googlePlay from "../../assets/googlePlay.png";
 import appStore from "../../assets/appStore.png";
 
 const Banner = () => {
-
   return (
     <div className=" bg-[#e6e6e6]">
       <div className="">
@@ -17,7 +16,6 @@ const Banner = () => {
           <div className="flex justify-center items-center gap-10 mb-10">
             <Link className="btn font-bold bg-[#e6e6e6] border-1 border-gray-400 hover:bg-gradient-to-br from-[#632EE3] to-[#9F62F2] hover:text-white " to="https://play.google.com/store/apps" target="_blank" > <img src={googlePlay} alt="googlePlay" className="w-6 h-6" />  Google Play </Link>
             <Link className="btn font-bold bg-[#e6e6e6] border-1 border-gray-400 hover:bg-gradient-to-br from-[#632EE3] to-[#9F62F2] hover:text-white " to="https://www.apple.com/app-store/" target="_blank" > <img src={appStore} alt="appStore" className="w-6 h-6"/> App Store</Link>
-            
           </div>
         </div>
         <div className="container mx-auto flex justify-center items-center">
@@ -50,4 +48,4 @@ const Banner = () => {
   )
 }
 
-export default Banner;
+export default Banner ;

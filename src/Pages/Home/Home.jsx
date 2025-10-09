@@ -9,9 +9,9 @@ const Home = () => {
     const appData = jsonData.slice(0, 8);
     
     return (
-        <div className=" bg-[#D2D2D2]">
+        <div className="bg-gray-100">
             <Banner></Banner>
-            <TrendingApps appData={appData}></TrendingApps>
+            <TrendingApps appData={appData} Loading={Loading}></TrendingApps>
         </div>
     )
 }

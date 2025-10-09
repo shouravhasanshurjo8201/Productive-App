@@ -4,7 +4,6 @@ import downloads from "../../assets/icon-downloads.png";
 import ratings from "../../assets/icon-ratings.png";
 
 const AppsCard = ({app}) => {
-
   return (
     <Link to={`/Apps/${app.id}`} id={app.id}  className="bg-white p-5 rounded shadow hover:scale-105 transition ease-in-out">
         <div className="flex justify-center items-center">
@@ -27,4 +26,4 @@ const AppsCard = ({app}) => {
   )
 }
 
-export default AppsCard;
+export default AppsCard ;
