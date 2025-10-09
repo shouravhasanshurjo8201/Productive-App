@@ -37,12 +37,16 @@ const DetailPage = () => {
         return (<InvalidID></InvalidID>);
     }
 
+
+    
+
+
     return (
         <div className="flex-1 container mx-auto">
             {Loading ? <LoadingPage></LoadingPage> :
                 <div>
                     <div className="border-b-1 border-gray-200 md:grid grid-cols-12 py-5 gap-5 p-5">
-                        <div className="col-span-4 flex justify-center items-center"> <img src={ratings} alt="" className="h-60 w-80 rounded shadow" /></div>
+                        <div className="col-span-4 flex justify-center items-center"> <img src={AppsData?.image} alt="" className="h-60 w-80 rounded-md shadow" /></div>
                         <div className="col-span-8">
                             <div className="border-b-1 border-gray-200 pb-5">
                                 <h1 className="text-2xl font-bold">{AppsData?.title}</h1>

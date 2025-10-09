@@ -16,7 +16,7 @@ const InstalledApps = ({ app, setApps }) => {
         <div className="container mx-auto bg-white my-4 rounded">
             <div className="md:flex justify-between items-center py-5 gap-5 p-5">
                 <div className="flex justify-between items-center gap-10">
-                    <div className=" flex justify-center items-center"> <img src={ratings} alt="" className="h-28 w-28 rounded shadow" />
+                    <div className=" flex justify-center items-center"> <img src={app.image} alt="" className="h-20 w-20 rounded shadow" />
                     </div>
                     <div className="">
                         <div>

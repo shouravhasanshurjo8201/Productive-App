@@ -1,218 +1,362 @@
 [
   {
-    "image": "https://example.com/images/netflix.png",
+    "image": "https://i.imgur.com/1OYTiPi.png",
     "title": "Netflix",
     "companyName": "Netflix Inc.",
     "id": 1,
-    "description": "Netflix is one of the leading streaming platforms in the world that provides on-demand movies, TV shows, documentaries, and exclusive original series. It gives users the freedom to watch content anytime and anywhere with internet access. With an easy-to-navigate interface and smart recommendations, Netflix makes discovering new content simple. It supports multiple devices like smartphones, tablets, smart TVs, and laptops, so entertainment is never restricted. Viewers can enjoy different genres including action, drama, romance, comedy, and thriller. Netflix also allows offline downloads, multiple user profiles, and parental controls. Its vast library and constant updates make it a trusted platform worldwide.",
+    "description": "Netflix is a leading global streaming service that provides access to thousands of movies, TV shows, and documentaries. Users can watch anytime, anywhere, with support for multiple devices and offline downloads. Netflix offers personalized recommendations and a wide variety of genres including action, drama, comedy, and documentaries. It has become a trusted platform for entertainment worldwide due to its original series, movies, and documentaries. Families can create profiles, and parental controls ensure safe viewing. The intuitive interface makes it easy to discover new content. Netflix continually updates its library to keep users engaged and entertained.",
     "size": 110,
     "reviews": 4521,
     "ratingAvg": 4.4,
     "downloads": 7,
     "ratings": [
-      { "name": "1 star", "count": 1000 },
-      { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 1500 },
-      { "name": "4 star", "count": 2700 },
-      { "name": "5 star", "count": 4200 }
+      {"name": "1 star", "count": 1000},
+      {"name": "2 star", "count": 700},
+      {"name": "3 star", "count": 1500},
+      {"name": "4 star", "count": 2700},
+      {"name": "5 star", "count": 4200}
     ]
   },
   {
-    "image": "https://example.com/images/youtube.png",
-    "title": "YouTube",
-    "companyName": "Google LLC",
+    "image": "https://i.imgur.com/vmFjVW9.jpeg",
+    "title": "WhatsApp",
+    "companyName": "WhatsApp LLC",
     "id": 2,
-    "description": "YouTube is the world’s most popular video sharing platform where people upload, watch, and interact with videos of all kinds. It allows creators to share tutorials, music, educational content, reviews, and entertainment with a global audience. YouTube’s powerful search engine and recommendation system make it easy to discover new content that matches user interests. Users can subscribe to their favorite creators, create playlists, and comment on videos. Offline downloads are available for premium users, while creators can also monetize content. With billions of users worldwide, YouTube has become a central hub for learning, entertainment, and creativity across every age group.",
-    "size": 100,
-    "reviews": 8234,
+    "description": "WhatsApp is a free messaging and voice-over-IP service used worldwide. It allows users to send text messages, images, videos, voice notes, and files instantly. WhatsApp supports group chats, broadcast messages, and video or voice calls. End-to-end encryption ensures secure communication between users. The app works seamlessly across mobile devices and web platforms. Status updates allow sharing moments with friends. Its intuitive interface and fast performance have made it a popular communication tool. Businesses can use WhatsApp for customer support and updates. With billions of active users, WhatsApp remains one of the most trusted messaging apps globally.",
+    "size": 40,
+    "reviews": 5823,
     "ratingAvg": 4.6,
     "downloads": 9,
     "ratings": [
-      { "name": "1 star", "count": 2000 },
-      { "name": "2 star", "count": 1200 },
-      { "name": "3 star", "count": 3000 },
-      { "name": "4 star", "count": 6000 },
-      { "name": "5 star", "count": 12700 }
+      {"name": "1 star", "count": 800},
+      {"name": "2 star", "count": 600},
+      {"name": "3 star", "count": 1200},
+      {"name": "4 star", "count": 3100},
+      {"name": "5 star", "count": 4600}
     ]
   },
   {
-    "image": "https://example.com/images/whatsapp.png",
-    "title": "WhatsApp Messenger",
-    "companyName": "WhatsApp LLC",
+    "image": "https://i.imgur.com/VaHyr9V.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
     "id": 3,
-    "description": "WhatsApp Messenger is a free communication app that provides fast, secure, and reliable messaging and voice or video calling. With end-to-end encryption, users can chat with confidence knowing their conversations remain private. It supports group chats, media sharing, and even file transfers, making it suitable for both personal and business use. WhatsApp Web extends the experience to desktops, and features like status updates and stickers enhance interactions. The app is optimized for low data usage and works smoothly even with weak internet connections. As one of the most widely used messaging apps globally, it connects billions of people every day.",
-    "size": 45,
-    "reviews": 3219,
-    "ratingAvg": 4.3,
+    "description": "Facebook is a leading social media platform that connects billions of users worldwide. Users can share posts, photos, and videos, and interact via likes, comments, and shares. Features include groups, pages, stories, marketplace, events, and live streaming. Businesses use Facebook to reach customers through targeted ads and marketing campaigns. Messenger integration allows private chats, voice, and video calls. Facebook provides a personalized feed based on user interests. Its interface is user-friendly and supports multiple languages. Regular updates improve security and usability. Facebook has become a vital platform for communication, networking, and entertainment globally.",
+    "size": 75,
+    "reviews": 9321,
+    "ratingAvg": 4.2,
     "downloads": 8,
     "ratings": [
-      { "name": "1 star", "count": 1200 },
-      { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 2500 },
-      { "name": "4 star", "count": 6000 },
-      { "name": "5 star", "count": 11900 }
+      {"name": "1 star", "count": 1200},
+      {"name": "2 star", "count": 1000},
+      {"name": "3 star", "count": 2000},
+      {"name": "4 star", "count": 2800},
+      {"name": "5 star", "count": 4200}
     ]
   },
   {
-    "image": "https://example.com/images/facebook.png",
-    "title": "Facebook",
-    "companyName": "Meta Platforms Inc.",
+    "image": "https://i.imgur.com/tvFOxCL.jpeg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
     "id": 4,
-    "description": "Facebook is a global social networking platform that connects friends, families, and communities. It allows users to share updates, photos, videos, and memories while engaging in groups and pages of interest. With features like Marketplace, Live video, and Events, Facebook has become more than just a social app. It also provides businesses with powerful tools to reach new audiences and advertise effectively. Messenger integration makes chatting seamless, while user profiles help people showcase their interests and achievements. Constant updates and improvements ensure a dynamic user experience. Facebook continues to shape how people communicate and interact across the world.",
-    "size": 80,
-    "reviews": 5823,
-    "ratingAvg": 4.1,
+    "description": "Instagram is a photo and video sharing social media platform where users can upload, edit, and share visual content. It features Stories, Reels, IGTV, live streaming, and messaging. The explore page helps discover trending content. Users can follow friends, celebrities, and brands. Instagram is widely used for personal expression, influencer marketing, and business promotion. Filters and creative tools enhance visual appeal. The platform supports multiple devices and languages. Analytics tools allow content creators to measure engagement. Instagram's user-friendly interface and engaging features have made it a popular choice for millions globally.",
+    "size": 60,
+    "reviews": 8742,
+    "ratingAvg": 4.5,
     "downloads": 6,
     "ratings": [
-      { "name": "1 star", "count": 2000 },
-      { "name": "2 star", "count": 1000 },
-      { "name": "3 star", "count": 3000 },
-      { "name": "4 star", "count": 5000 },
-      { "name": "5 star", "count": 7000 }
+      {"name": "1 star", "count": 900},
+      {"name": "2 star", "count": 700},
+      {"name": "3 star", "count": 1600},
+      {"name": "4 star", "count": 2500},
+      {"name": "5 star", "count": 4000}
     ]
   },
   {
-    "image": "https://example.com/images/instagram.png",
-    "title": "Instagram",
-    "companyName": "Meta Platforms Inc.",
+    "image": "https://i.imgur.com/SjcDVtH.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
     "id": 5,
-    "description": "Instagram is a social platform built around sharing photos and videos. It features a clean design that allows users to focus on visual content, explore creative stories, and interact with people worldwide. With filters and editing tools, users can enhance their images before posting. Instagram Stories and Reels have become popular for quick updates and short videos. Businesses and creators use Instagram to showcase products, grow audiences, and connect with fans. Its algorithm personalizes the feed to each user’s preferences, ensuring an engaging experience. From lifestyle updates to brand marketing, Instagram remains a hub of creativity and modern communication.",
-    "size": 65,
-    "reviews": 7810,
-    "ratingAvg": 4.4,
+    "description": "YouTube is the largest video sharing platform globally, allowing users to upload, watch, and share videos on a variety of topics including entertainment, education, and news. Creators can monetize content, live stream, and interact with viewers through comments and community posts. Users can subscribe to channels, create playlists, and use offline downloads. YouTube’s recommendation engine suggests personalized content to keep viewers engaged. Premium subscription removes ads and allows background play. Accessible on multiple devices, YouTube has become a go-to platform for both learning and entertainment across all ages worldwide.",
+    "size": 95,
+    "reviews": 7634,
+    "ratingAvg": 4.7,
     "downloads": 5,
     "ratings": [
-      { "name": "1 star", "count": 1100 },
-      { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 2200 },
-      { "name": "4 star", "count": 4500 },
-      { "name": "5 star", "count": 7500 }
+      {"name": "1 star", "count": 700},
+      {"name": "2 star", "count": 600},
+      {"name": "3 star", "count": 1300},
+      {"name": "4 star", "count": 2500},
+      {"name": "5 star", "count": 4200}
     ]
   },
   {
-    "image": "https://example.com/images/twitter.png",
-    "title": "X (Twitter)",
-    "companyName": "X Corp.",
-    "id": 6,
-    "description": "X, formerly known as Twitter, is a social media platform for sharing short updates, news, and thoughts in real time. Users post tweets, follow trending topics, and engage in global conversations instantly. With hashtags, replies, and retweets, it promotes discussions and spreads ideas quickly. Businesses, celebrities, and leaders use it to interact directly with audiences. Multimedia support allows images, videos, and live streams. The platform also supports Spaces for live audio conversations. Its open nature makes it a hub for news, politics, and culture. Despite controversies, X remains a primary tool for fast communication and global engagement.",
-    "size": 55,
-    "reviews": 9231,
-    "ratingAvg": 3.9,
-    "downloads": 4,
-    "ratings": [
-      { "name": "1 star", "count": 2000 },
-      { "name": "2 star", "count": 1200 },
-      { "name": "3 star", "count": 1800 },
-      { "name": "4 star", "count": 2200 },
-      { "name": "5 star", "count": 1800 }
-    ]
-  },
-  {
-    "image": "https://example.com/images/tiktok.png",
+    "image": "https://i.imgur.com/7ZzGAA6.png",
     "title": "TikTok",
     "companyName": "ByteDance",
-    "id": 7,
-    "description": "TikTok is a short-video sharing app that allows users to create and discover entertaining content. With its easy-to-use editing tools, music integration, and creative effects, it has become a favorite among young audiences. Users can follow trends, participate in challenges, and share moments instantly. TikTok’s personalized algorithm shows videos that match interests, making browsing addictive and engaging. The platform supports live streaming, duets, and reactions, encouraging collaboration and community building. Businesses and influencers also use TikTok for marketing campaigns and audience growth. Its mix of entertainment and creativity makes it one of the fastest-growing apps in the world.",
-    "size": 75,
-    "reviews": 4821,
-    "ratingAvg": 4.2,
-    "downloads": 3,
+    "id": 6,
+    "description": "TikTok is a popular short-video social media platform that allows users to create, share, and watch engaging videos with music, filters, and effects. The app uses a personalized recommendation algorithm to show trending content to each user. TikTok supports challenges, duets, reactions, and live streaming. Businesses and influencers use TikTok to grow audiences and promote products. Its global community shares content in various languages, making it accessible to a wide audience. TikTok’s simple interface, creativity tools, and addictive content have made it one of the fastest-growing social media platforms worldwide.",
+    "size": 70,
+    "reviews": 6821,
+    "ratingAvg": 4.3,
+    "downloads": 7,
     "ratings": [
-      { "name": "1 star", "count": 1500 },
-      { "name": "2 star", "count": 900 },
-      { "name": "3 star", "count": 2100 },
-      { "name": "4 star", "count": 3400 },
-      { "name": "5 star", "count": 4100 }
+      {"name": "1 star", "count": 1200},
+      {"name": "2 star", "count": 800},
+      {"name": "3 star", "count": 1800},
+      {"name": "4 star", "count": 2700},
+      {"name": "5 star", "count": 3200}
     ]
   },
   {
-    "image": "https://example.com/images/snapchat.png",
-    "title": "Snapchat",
-    "companyName": "Snap Inc.",
-    "id": 8,
-    "description": "Snapchat is a messaging app that lets users share photos and videos instantly with friends. Content shared disappears after being viewed, making communication fun and casual. It includes features like Stories, Discover, and Snap Map for interactive experiences. Users enjoy creative filters, lenses, and stickers to personalize snaps. Businesses and publishers use Discover for marketing and reaching audiences. Snapchat also supports group chats, video calls, and Bitmoji integration. It is particularly popular among younger demographics for its playful design. With privacy features and new updates, Snapchat continues to evolve as a major player in social media communication.",
-    "size": 60,
-    "reviews": 5610,
-    "ratingAvg": 4.0,
-    "downloads": 2,
-    "ratings": [
-      { "name": "1 star", "count": 800 },
-      { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 1400 },
-      { "name": "4 star", "count": 2000 },
-      { "name": "5 star", "count": 2300 }
-    ]
-  },
-  {
-    "image": "https://example.com/images/spotify.png",
+    "image": "https://i.imgur.com/pSXfOh4.png",
     "title": "Spotify",
     "companyName": "Spotify AB",
-    "id": 9,
-    "description": "Spotify is a music and podcast streaming platform that allows users to access millions of songs and episodes from around the world. It provides personalized playlists such as Discover Weekly and Daily Mix based on listening habits. Users can create, share, and follow playlists, making music discovery social and interactive. Spotify supports offline listening for premium users and works on multiple devices including phones, tablets, desktops, and smart speakers. With high-quality streaming and constant content updates, it remains a favorite choice for music lovers globally. Podcasts, audiobooks, and exclusive content make it even more valuable for diverse audiences.",
+    "id": 7,
+    "description": "Spotify is a music streaming platform that provides access to millions of songs, playlists, and podcasts. Users can discover music based on genres, moods, and personal preferences. Spotify allows offline downloads for premium users and supports multiple devices including smartphones, tablets, desktops, and smart speakers. Its algorithm generates personalized playlists like Discover Weekly and Daily Mix. Artists can share their music with global audiences, while listeners can create and share their own playlists. Spotify’s interface is intuitive, and the platform continuously updates with new releases, podcasts, and exclusive content, making it a favorite app for music lovers worldwide.",
     "size": 90,
     "reviews": 6432,
     "ratingAvg": 4.5,
     "downloads": 8,
     "ratings": [
-      { "name": "1 star", "count": 700 },
-      { "name": "2 star", "count": 400 },
-      { "name": "3 star", "count": 1200 },
-      { "name": "4 star", "count": 2300 },
-      { "name": "5 star", "count": 3400 }
+      {"name": "1 star", "count": 700},
+      {"name": "2 star", "count": 400},
+      {"name": "3 star", "count": 1200},
+      {"name": "4 star", "count": 2300},
+      {"name": "5 star", "count": 3400}
     ]
   },
   {
-    "image": "https://example.com/images/telegram.png",
+    "image": "https://i.imgur.com/vUEMvwi.jpeg",
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
-    "id": 10,
-    "description": "Telegram is a messaging app focused on speed, security, and cloud storage. It allows users to send messages, photos, videos, and files of any type without limits. With channels and groups supporting thousands of members, it is widely used for communities and public communication. Its secret chats feature end-to-end encryption for private conversations. Telegram is cross-platform and syncs seamlessly across devices. Users enjoy features like bots, stickers, and custom themes for a personalized experience. Because of its reliability and focus on privacy, Telegram has become a popular choice for individuals and organizations worldwide seeking a secure communication platform.",
+    "id": 8,
+    "description": "Telegram is a cloud-based messaging platform known for speed, privacy, and security. It supports text messaging, media sharing, group chats, channels, bots, and file transfers of any type. Telegram allows secret chats with end-to-end encryption, self-destructing messages, and password protection. The app works across devices seamlessly, syncing messages instantly. Telegram channels help reach large audiences, while groups enable community discussions. Its customizable interface and interactive features have made it popular among tech-savvy users. With its privacy-focused design, Telegram is widely used for both personal and professional communication worldwide.",
     "size": 50,
     "reviews": 4321,
     "ratingAvg": 4.4,
     "downloads": 7,
     "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 300 },
-      { "name": "3 star", "count": 900 },
-      { "name": "4 star", "count": 1800 },
-      { "name": "5 star", "count": 2500 }
+      {"name": "1 star", "count": 500},
+      {"name": "2 star", "count": 300},
+      {"name": "3 star", "count": 900},
+      {"name": "4 star", "count": 1800},
+      {"name": "5 star", "count": 2500}
     ]
   },
   {
-    "image": "https://example.com/images/gmail.png",
-    "title": "Gmail",
+    "image": "https://i.imgur.com/Wt3ScxT.jpeg",
+    "title": "Google Maps",
     "companyName": "Google LLC",
-    "id": 11,
-    "description": "Gmail is a free and secure email service developed by Google. It provides powerful features such as spam protection, customizable inbox categories, and integration with other Google services like Drive and Calendar. Users can send and receive emails instantly, attach files, and organize conversations with labels and filters. Gmail supports both personal and professional use, offering large storage space and reliable performance. Its mobile app ensures easy access on the go. Security features like two-step verification and encryption protect user data. With billions of active users, Gmail is one of the most trusted and widely used email platforms globally.",
-    "size": 40,
-    "reviews": 9781,
-    "ratingAvg": 4.6,
-    "downloads": 9,
+    "id": 9,
+    "description": "Google Maps is a navigation and mapping service that provides detailed maps, satellite imagery, real-time traffic updates, and route planning. Users can search for addresses, businesses, and points of interest worldwide. Google Maps offers features like Street View, public transit schedules, and offline maps. Businesses can claim listings to enhance visibility and gather user reviews. The platform also supports location sharing, driving directions, and walking routes. Google Maps is widely used by travelers, commuters, and delivery services for accurate navigation and information. Its reliable interface and frequent updates ensure an excellent user experience for global audiences.",
+    "size": 85,
+    "reviews": 8123,
+    "ratingAvg": 4.7,
+    "downloads": 8,
     "ratings": [
-      { "name": "1 star", "count": 900 },
-      { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 1400 },
-      { "name": "4 star", "count": 2800 },
-      { "name": "5 star", "count": 5300 }
+      {"name": "1 star", "count": 600},
+      {"name": "2 star", "count": 400},
+      {"name": "3 star", "count": 1200},
+      {"name": "4 star", "count": 2000},
+      {"name": "5 star", "count": 4800}
     ]
   },
   {
-    "image": "https://example.com/images/zoom.png",
+    "image": "https://i.imgur.com/Xu3rnO3.png",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 10,
+    "description": "LinkedIn is a professional networking platform that helps users connect with colleagues, employers, and industry professionals. Users can create detailed profiles highlighting their skills, education, and work experience. The platform supports job applications, business networking, groups, and professional content sharing. Recruiters can search for candidates, while companies can post vacancies and share updates. LinkedIn Learning offers courses to enhance skills. Notifications and analytics tools help users track engagement and career growth. Its interface supports multiple languages and devices, making LinkedIn an essential tool for professional networking, career development, and business promotion worldwide.",
+    "size": 70,
+    "reviews": 4712,
+    "ratingAvg": 4.3,
+    "downloads": 7,
+    "ratings": [
+      {"name": "1 star", "count": 300},
+      {"name": "2 star", "count": 200},
+      {"name": "3 star", "count": 600},
+      {"name": "4 star", "count": 1200},
+      {"name": "5 star", "count": 1700}
+    ]
+  },
+  {
+    "image": "https://i.imgur.com/ozx26cw.png",
     "title": "Zoom",
     "companyName": "Zoom Video Communications",
-    "id": 12,
-    "description": "Zoom is a video conferencing app that allows people to connect virtually for meetings, classes, and events. It offers features like screen sharing, breakout rooms, and recording, making it suitable for professional and educational use. Zoom’s simple interface makes it easy for anyone to join a meeting with just a link. Its mobile and desktop apps provide high-quality video and audio performance. Businesses use Zoom for webinars and collaboration, while families use it for personal connections. Security enhancements like passcodes and waiting rooms protect meetings from unauthorized access. Zoom has become a crucial tool for remote communication worldwide.",
+    "id": 11,
+    "description": "Zoom is a leading video conferencing and communication platform used for meetings, webinars, and online events. It offers HD video, audio, screen sharing, breakout rooms, recording, and chat features. Zoom supports multiple devices including mobile phones, tablets, and desktops. Businesses, educators, and individuals use Zoom for virtual collaboration and remote work. Security features like waiting rooms, passcodes, and encryption ensure safe meetings. Its intuitive interface, reliability, and scalability have made Zoom a popular choice worldwide for professional and personal communication. Regular updates provide new features and improve user experience continuously.",
     "size": 120,
     "reviews": 5612,
     "ratingAvg": 4.2,
     "downloads": 6,
     "ratings": [
-      { "name": "1 star", "count": 800 },
-      { "name": "2 star", "count": 500 },
-      { "name": "3 star", "count": 1200 },
-      { "name": "4 star", "count": 1800 },
-      { "name": "5 star", "count": 2700 }
+      {"name": "1 star", "count": 800},
+      {"name": "2 star", "count": 500},
+      {"name": "3 star", "count": 1200},
+      {"name": "4 star", "count": 1800},
+      {"name": "5 star", "count": 2700}
     ]
-  }]
-  
+  },
+  {
+    "image": "https://i.imgur.com/5TYkgHp.png",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 12,
+    "description": "Gmail is a free, secure, and user-friendly email service developed by Google. It offers features like spam protection, conversation threading, labels, and advanced search. Users can attach files, send large emails, and organize messages efficiently. Gmail integrates with other Google services like Drive, Calendar, and Meet. Offline access allows users to read and compose emails without internet. Two-factor authentication and encryption enhance security. Gmail is widely used for personal and professional communication worldwide. Regular updates improve interface, usability, and productivity. With billions of users, Gmail remains one of the most trusted email platforms.",
+    "size": 40,
+    "reviews": 9781,
+    "ratingAvg": 4.6,
+    "downloads": 9,
+    "ratings": [
+      {"name": "1 star", "count": 900},
+      {"name": "2 star", "count": 500},
+      {"name": "3 star", "count": 1400},
+      {"name": "4 star", "count": 2800},
+      {"name": "5 star", "count": 5300}
+    ]
+  },
+  {
+    "image": "https://i.imgur.com/nrgxLEh.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 13,
+    "description": "Snapchat is a multimedia messaging app that allows users to send temporary photos and videos called 'Snaps'. The platform includes Stories, Discover, Snap Map, filters, and lenses. Users can chat, video call, and share content with friends. Businesses use Discover for advertising and content sharing. Snapchat focuses on ephemeral content to encourage casual and creative communication. Its augmented reality features and interactive experiences make it popular among younger audiences. Snapchat supports multiple devices and continuously adds features to enhance privacy, creativity, and engagement. It has become an important social media platform worldwide.",
+    "size": 60,
+    "reviews": 5610,
+    "ratingAvg": 4.0,
+    "downloads": 2,
+    "ratings": [
+      {"name": "1 star", "count": 800},
+      {"name": "2 star", "count": 500},
+      {"name": "3 star", "count": 1400},
+      {"name": "4 star", "count": 2000},
+      {"name": "5 star", "count": 2300}
+    ]
+  },
+  {
+    "image": "https://i.imgur.com/P14Wfve.png",
+    "title": "Duolingo",
+    "companyName": "Duolingo Inc.",
+    "id": 14,
+    "description": "Duolingo is a language learning app that provides lessons in a gamified format. Users can learn reading, writing, listening, and speaking skills for multiple languages. The app includes quizzes, exercises, streaks, and leaderboards to motivate learning. Duolingo supports offline lessons and multiple devices. It tracks progress and offers personalized learning paths. Users can practice vocabulary, grammar, and pronunciation interactively. Duolingo’s engaging design has helped millions of learners worldwide. Teachers and students use it as a supplementary tool for classroom learning. Frequent updates, added languages, and new features keep the app fresh and effective.",
+    "size": 65,
+    "reviews": 4820,
+    "ratingAvg": 4.5,
+    "downloads": 3,
+    "ratings": [
+      {"name": "1 star", "count": 400},
+      {"name": "2 star", "count": 300},
+      {"name": "3 star", "count": 900},
+      {"name": "4 star", "count": 1500},
+      {"name": "5 star", "count": 2800}
+    ]
+  },
+  {
+    "image": "https://i.imgur.com/TcVK5fL.png",
+    "title": "Amazon",
+    "companyName": "Amazon.com Inc.",
+    "id": 15,
+    "description": "Amazon is a global e-commerce platform offering a wide variety of products including electronics, clothing, books, and household items. Users can browse, compare, and purchase items with secure payment options. The platform provides fast delivery, order tracking, and easy returns. Amazon Prime offers additional benefits like free shipping, Prime Video, and exclusive deals. Sellers can reach customers worldwide through Amazon’s marketplace. Its recommendation system suggests products based on user behavior and preferences. The platform is available on multiple devices, making shopping convenient and accessible. Amazon continues to innovate in e-commerce, logistics, and digital content services globally.",
+    "size": 105,
+    "reviews": 6732,
+    "ratingAvg": 4.6,
+    "downloads": 8,
+    "ratings": [
+      {"name": "1 star", "count": 700},
+      {"name": "2 star", "count": 500},
+      {"name": "3 star", "count": 1500},
+      {"name": "4 star", "count": 2700},
+      {"name": "5 star", "count": 3700}
+    ]
+  },
+  {
+    "image": "https://i.imgur.com/yxXDvIr.png",
+    "title": "eBay",
+    "companyName": "eBay Inc.",
+    "id": 16,
+    "description": "eBay is a global online marketplace that allows users to buy and sell new and used products across numerous categories. Users can bid in auctions or purchase items at fixed prices. The platform supports secure payment and shipment tracking. Sellers can list products globally and reach millions of potential buyers. eBay provides buyer and seller protection to ensure safe transactions. Users can browse deals, search by category, and receive recommendations. eBay’s mobile app allows shopping on-the-go. Regular updates improve usability, security, and features. With millions of listings, eBay remains a major player in online retail.",
+    "size": 95,
+    "reviews": 5210,
+    "ratingAvg": 4.3,
+    "downloads": 5,
+    "ratings": [
+      {"name": "1 star", "count": 400},
+      {"name": "2 star", "count": 300},
+      {"name": "3 star", "count": 900},
+      {"name": "4 star", "count": 1500},
+      {"name": "5 star", "count": 2100}
+    ]
+  },
+  {
+    "image": "https://i.imgur.com/ZCgfgpT.png",
+    "title": "ZoomInfo",
+    "companyName": "ZoomInfo Technologies",
+    "id": 17,
+    "description": "ZoomInfo is a B2B intelligence platform that provides companies with contact information, company insights, and market data. Users can find leads, research organizations, and manage sales pipelines efficiently. ZoomInfo integrates with CRM systems to streamline workflows. The platform offers data analytics, enrichment tools, and sales prospecting features. It supports multiple devices and provides team collaboration functionalities. ZoomInfo’s data-driven insights help businesses identify opportunities, improve sales strategies, and reach target audiences effectively. Regular updates and data accuracy improvements make it a trusted tool for sales, marketing, and recruitment teams globally.",
+    "size": 80,
+    "reviews": 4320,
+    "ratingAvg": 4.2,
+    "downloads": 4,
+    "ratings": [
+      {"name": "1 star", "count": 300},
+      {"name": "2 star", "count": 200},
+      {"name": "3 star", "count": 800},
+      {"name": "4 star", "count": 1500},
+      {"name": "5 star", "count": 1600}
+    ]
+  },
+  {
+    "image": "https://i.imgur.com/9V766vV.jpeg",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 18,
+    "description": "Slack is a collaboration platform that enables team communication via channels, direct messages, and group chats. It supports file sharing, video calls, app integrations, and workflow automation. Users can organize conversations by topics, projects, or teams. Slack integrates with tools like Google Drive, Trello, and Zoom to streamline productivity. Notifications and search functionality allow users to stay updated and retrieve information quickly. Slack is used by businesses and organizations worldwide for project management, remote collaboration, and internal communication. Its intuitive interface and robust feature set make team collaboration easier and more efficient.",
+    "size": 70,
+    "reviews": 4120,
+    "ratingAvg": 4.4,
+    "downloads": 5,
+    "ratings": [
+      {"name": "1 star", "count": 200},
+      {"name": "2 star", "count": 200},
+      {"name": "3 star", "count": 800},
+      {"name": "4 star", "count": 1400},
+      {"name": "5 star", "count": 1520}
+    ]
+  },
+  {
+    "image": "https://i.imgur.com/x4KFksB.jpeg",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 19,
+    "description": "Trello is a project management and collaboration tool that uses boards, lists, and cards to organize tasks. Users can create projects, assign tasks, set deadlines, attach files, and track progress. Trello supports team collaboration and integrates with other productivity tools such as Slack, Google Drive, and Jira. Its visual layout makes it easy to understand project status at a glance. Notifications, labels, and checklists help teams stay on track. Trello’s mobile and web apps allow access anywhere. Frequent updates improve usability and functionality. Trello is used globally for team organization, project planning, and productivity enhancement.",
+    "size": 60,
+    "reviews": 3981,
+    "ratingAvg": 4.3,
+    "downloads": 4,
+    "ratings": [
+      {"name": "1 star", "count": 200},
+      {"name": "2 star", "count": 150},
+      {"name": "3 star", "count": 600},
+      {"name": "4 star", "count": 1300},
+      {"name": "5 star", "count": 1731}
+    ]
+  },
+  {
+    "image": "https://i.imgur.com/OhVeWg9.jpeg",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "id": 20,
+    "description": "Evernote is a note-taking app that helps users capture, organize, and manage information digitally. Users can create text notes, checklists, audio recordings, and attach files. Notes are searchable and can be categorized using notebooks and tags. Evernote syncs across devices for easy access. The app supports collaboration by allowing note sharing with colleagues and teammates. Templates and organizational tools improve productivity. Its web clipper allows saving content from browsers. Evernote is widely used by students, professionals, and organizations to manage personal and work-related information effectively. Regular updates enhance features and security.",
+    "size": 55,
+    "reviews": 3720,
+    "ratingAvg": 4.2,
+    "downloads": 3,
+    "ratings": [
+      {"name": "1 star", "count": 150},
+      {"name": "2 star", "count": 100},
+      {"name": "3 star", "count": 500},
+      {"name": "4 star", "count": 1200},
+      {"name": "5 star", "count": 1770}
+    ]
+  }
+]
