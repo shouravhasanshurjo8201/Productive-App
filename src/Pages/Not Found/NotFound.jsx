@@ -1,5 +1,6 @@
 import Error from "../../assets/App-Error.png";
 
+
 const NotFound = () => {
     return (
         <div className=" flex flex-col items-center justify-center">
