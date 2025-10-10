@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="container mx-auto ">
                 <div className="md:flex md:justify-between md:items-center border-b border-gray-400">
                     <div className="md:ml-4 ">
-                        <Link to="/" title="HERO.IO" className=" flex md:justify-around justify-center items-center gap-2 text-xl font-bold cursor-pointer mb-5 md:mb-1"><img src={imgLogo} alt="Logo-img" className="h-8 w-8" /> <span className="bg-gradient-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text hover:text-transparent">HERO.IO</span> </Link>
+                        <Link to="/" title="HERO.IO" className=" flex md:justify-around justify-center items-center gap-2 text-xl font-bold cursor-pointer mb-5 md:mb-1"><img src={imgLogo} alt="Logo-img" className="h-8 w-8 rounded" /> <span className="bg-gradient-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text hover:text-transparent">HERO.IO</span> </Link>
                     </div>
                     <div className="text-center md:mr-4">
                         <div>
